@@ -24,6 +24,9 @@ This is a custom n8n node package that allows you to interact with YouTube.
 1.  **Navigate to your custom nodes directory:**
     ```bash
     cd ~/.n8n/custom
+    npm install -g typescript
+    
+
     # Or for Docker installs, the equivalent mapped volume
     # cd /home/node/.n8n/custom
     ```
@@ -55,6 +58,8 @@ Alternatively, if you only have the built `dist` folder and `package.json`:
     # Installs only necessary runtime dependencies
     ```
 4.  Restart n8n.
+5.  else eample cp -r ~/Téléchargements/n8n-nodes-youtube-transcript-plus-main ~/.n8n/custom/n8n-nodes-youtube-transcript-plus
+
 
 ## Usage
 
